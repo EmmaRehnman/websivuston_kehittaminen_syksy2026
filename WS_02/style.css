@@ -10,7 +10,7 @@
             color: S#3e1fdb;
         }
         h2 {
-            color: #3b86a4;
+            color: #50beed;
         }
         form {
             margin-bottom: 20px;
@@ -50,11 +50,10 @@ table {
     }
     
     th {
-      background-color: #f2f2f2;
+      background-color: #f9f6f6;
     }
     
     form {
-      display: flex;
       flex-direction: column;
       gap: 10px;
     }
