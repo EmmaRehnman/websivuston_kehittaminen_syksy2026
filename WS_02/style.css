@@ -1,16 +1,25 @@
      
-  body {
-            background-color: #7c97e9;
+ body {
+            background-color: #192A51;
             font-family: Arial, sans-serif;
             padding: 50px;
             text-align: center;
+            color: #F5E6E8
+          
             
         }
         h1 {
-            color: S#3e1fdb;
+            color:#967AA1;
+            font-size: 50px;
         }
         h2 {
-            color: #50beed;
+            color: #0d445c;
+            font-size: 30px;
+
+        }
+        h3 {
+            color: #69c7ef;
+            font-size: 30px;
         }
         form {
             margin-bottom: 20px;
@@ -58,12 +67,13 @@ table {
     }
     
     th {
-      background-color: #f9f6f6;
+      background-color: #c590d8;
     }
     
     form {
       flex-direction: column;
       gap: 10px;
+      
     }
     
     label {
