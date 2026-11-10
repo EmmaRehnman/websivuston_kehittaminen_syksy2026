@@ -1,0 +1,156 @@
+     
+ body {
+            background-color: #192A51;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            text-align: center;
+            color: #F5E6E8
+          
+            
+        }
+        h1 {
+            color:#967AA1;
+            font-size: 50px;
+        }
+        h2 {
+            color: #0d445c;
+            font-size: 30px;
+
+        }
+        h3 {
+            color: #69c7ef;
+            font-size: 30px;
+        }
+        form {
+            margin-bottom: 20px;
+            
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        a{ margin-top: auto;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #3b86a4;
+            font-weight: bold;
+        }
+        ul {
+            text-align: center;
+            list-style-position: inside;
+        }
+        ol {
+            text-align: center;
+            list-style-position: inside;
+        }
+        .ordered-list {
+    display: table;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+    .ordered-list li {
+    text-align: left;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #c590d8;
+    }
+    
+    form {
+      flex-direction: column;
+      gap: 10px;
+      
+    }
+    
+    label {
+      font-weight: bold;
+    }
+     input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(124, 224, 88);
+      }
+    .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(55, 130, 163);
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 1100px;
+        }
+      }
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(52, 130, 99);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(59, 161, 198);
+      }
+
+.filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+    .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
